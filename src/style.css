@@ -2,7 +2,7 @@ body {
     background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
     background-attachment: fixed;
     margin: 60px auto;
-    max-width: 800px;
+    max-inline-size: 800px;
     font-family:cursive
 }
   
@@ -35,7 +35,7 @@ a {
 .nav-links {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-block-start: 40px;
 }
 
 .photo-link {
@@ -60,10 +60,12 @@ a {
     box-shadow: 10px 5px 5px red;  
 }
 
-img {
-    display: inline-block;
+
+.croissant-photo {
+    display: block;
     padding: 10px 100px;
-    max-width: 600px;
+    max-inline-size:600px;
     border-radius: 10px;
     border: 2px solid black;
+    margin: 30px auto;
 }
